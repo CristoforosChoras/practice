@@ -5,3 +5,6 @@
 // Examples:
 // 123 --> "123"
 // 999 --> "999"
+const numberToString = (item) =>  item.toString();
+
+console.log(numberToString(10))
