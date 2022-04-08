@@ -10,10 +10,10 @@
 
 const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
     let calculator = mpg * fuelLeft;
-    if(calculator === distanceToPump){
+    if(calculator >= distanceToPump){
         return true;
     }else{
         return false;
     }
   };
-console.log(zeroFuel(55,25,2))
+console.log(zeroFuel(50,25,2))
