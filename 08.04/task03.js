@@ -15,6 +15,5 @@ var stringToNumber = function(str){
     }else{
         return null;
     }
-    
   }
   console.log(stringToNumber("what"));
