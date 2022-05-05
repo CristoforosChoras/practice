@@ -19,3 +19,5 @@ function SeriesSum(n)
 {
     return [...Array(n)].reduce((s,_,i)=>s+1/(1+3*i),0).toFixed(2)
 }
+
+console.log(SeriesSum(1));
