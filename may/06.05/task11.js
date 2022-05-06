@@ -9,4 +9,5 @@ return x.map(item => parseInt(item)).reduce((a,b) => a + b,0)
 }
 
 
+
 console.log(sumMix(([9, 3, '7', '3'])));
