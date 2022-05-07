@@ -30,18 +30,17 @@ function queueTime(customers, n) {
     }
     return Math.max(...w);
   }
-// codewars solution 
+//  codewars solution 
 //   function queueTime(customers, registers) {
 //     let arr = [];
   
 //     for(let i = 0; i < registers; i++)
-//       arr[i] = 0;
+//       arr[i]=0;
   
 //     for(let i = 0; i < customers.length; i++) {
-//       arr[0] += customers[i];
 //       arr.sort((a, b) => a - b);
 //     }
-  
+//   console.log(arr);
 //     return arr[arr.length - 1];
 //   }
 
